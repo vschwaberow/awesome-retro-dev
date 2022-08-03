@@ -49,6 +49,7 @@
 *Complete toolchains to develop Sega Genesis programs*
 
 [Marsdev](https://github.com/andwn/marsdev) a complete cross platform development kit for Genesis / 32x<br />
+[SGDK](https://github.com/Stephane-D/SGDK) - a complete cross platform development kit for Sega Genesis / 32x<br />
 
 ### <a name="retro-sega-genesis-ide">IDE
 
