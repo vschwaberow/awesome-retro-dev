@@ -12,6 +12,17 @@
     - [Emulators](#retro-sega-genesis-emulators)
     - [Reverse engineering](#retro-sega-genesis-reverse-engineering)
     - [Source codes](#retro-sega-genesis-source-codes)
+  - Super Nintendo (SNES)(#retro-snes)
+    - [Assemblers](#retro-snes-assemblers)
+    - [Command line tools](#retro-snes-command-line-tools)
+    - [Compilers](#retro-snes-compilers)
+    - [Devkit](#retro-snes-devkit)
+    - [IDE](#retro-snes-ide)
+    - [Hardware](#retro-snes-hardware)
+    - [GUI Tools](#retro-snes-gui-tools)
+    - [Emulators](#retro-snes-emulators)
+    - [Reverse engineering](#retro-snes-reverse-engineering)
+    - [Source codes](#retro-snes-source-codes)
 
 ---
 
@@ -72,5 +83,14 @@
 
 *Any kind of source codes for the platform*
 
+[Demo Malabars-Bumper](https://github.com/ResistanceVault/demo-Malabars-Bumper) - Source code for a Sega Genesis demo<br />
 [Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo<br />
+[Genesis Debugger](https://github.com/flamewing/genesis-debugger) - Source code for a debugger on Sega Genesis<br />
 [GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver<br />
+[L'Abbaye des Morts](https://github.com/moon-watcher/AbbayeMD) - Source code for a Sega Genesis game<br />
+
+## <a name="retro-snes"></a>Super Nintendo (SNES)
+
+### <a name = "retro-snes-source-codes"></a>Source codes
+
+[Demo-Twistit](https://github.com/ResistanceVault/demo-twistit) - Source code for a SNES demo<br />
