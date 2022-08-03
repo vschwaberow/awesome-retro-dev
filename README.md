@@ -26,6 +26,8 @@
 
 *Any kind of command line tools for doing Sega Genesis development*
 
+[Sega Genesis Rom Checksum Utility](https://github.com/mrhappyasthma/Sega-Genesis-Checksum-Utility) - Python scripts to correct the rom checksum<br />
+
 ### <a name = "retro-sega-genesis-compilers"></a>Compilers
 
 *Compilers for the m68k platform*
