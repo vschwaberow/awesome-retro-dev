@@ -52,6 +52,8 @@
 
 *GUI tools for the Sega Genesis*
 
+[Codemasters Image Converter](https://github.com/lab313ru/CodemastersBinImage) - Allow to extract and insert back general graphics in Codemasters games<br />
+[Mega Happy Sprite](https://github.com/sigflup/Mega-Happy-Sprite) - Sprite / Scrollpane editor for the Sega Genesis<br />
 [ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron.<br />
 
 ### <a name = "retro-sega-genesis-emulators"></a>Emulators
