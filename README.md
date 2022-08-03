@@ -12,7 +12,7 @@
     - [Emulators](#retro-sega-genesis-emulators)
     - [Reverse engineering](#retro-sega-genesis-reverse-engineering)
     - [Source codes](#retro-sega-genesis-source-codes)
-  - Super Nintendo (SNES)(#retro-snes)
+  - [Super Nintendo (SNES)](#retro-snes)
     - [Assemblers](#retro-snes-assemblers)
     - [Command line tools](#retro-snes-command-line-tools)
     - [Compilers](#retro-snes-compilers)
