@@ -6,6 +6,7 @@
     - [Command line tools](#retro-sega-genesis-command-line-tools)
     - [Compilers](#retro-sega-genesis-compilers)
     - [Devkit](#retro-sega-genesis-devkit)
+    - [IDE](#retro-sega-genesis-ide)
     - [Hardware](#retro-sega-genesis-hardware)
     - [GUI Tools](#retro-sega-genesis-gui-tools)
     - [Emulators](#retro-sega-genesis-emulators)
@@ -35,6 +36,10 @@
 
 [Marsdev](https://github.com/andwn/marsdev) a complete cross platform development kit for Genesis / 32x
 
+### <a name="retro-sega-genesis-ide">IDE
+
+[genesis-code](https://github.com/zerasul/genesis-code) - Visual Studio Code Extension for Sega Genesis/ Mega Drive development.<br />
+
 ### <a name = "retro-sega-genesis-hardware"></a>Hardware
 
 *Hardware and it's firmware for the Sega Genesis*
@@ -63,4 +68,5 @@
 
 *Any kind of source codes for the platform*
 
+[Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo
 [GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
