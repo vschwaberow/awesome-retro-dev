@@ -6,7 +6,10 @@
     - [Command line tools](#retro-sega-genesis-command-line-tools)
     - [Compilers](#retro-sega-genesis-compilers)
     - [Devkit](#retro-sega-genesis-devkit)
+    - [Hardware](#retro-sega-genesis-hardware)
+    - [GUI Tools](#retro-sega-genesis-gui-tools)
     - [Emulators](#retro-sega-genesis-emulators)
+    - [Reverse engineering](#retro-sega-genesis-reverse-engineering)
     - [Source codes](#retro-sega-genesis-source-codes)
 
 ---
@@ -29,10 +32,34 @@
 
 *Complete toolchains to develop Sega Genesis programs*
 
+[Marsdev](https://github.com/andwn/marsdev) a complete cross platform development kit for Genesis / 32x
+
+### Hardware
+
+*Hardware and it's firmware for the Sega Genesis*
+
+[Genesis Dumper](https://github.com/tonyp7/GenDumper) - Open Source hardware to dump cartridges
+
+### GUI Tools
+
+*GUI tools for the Sega Genesis*
+
+[ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron. 
+
 ### Emulators
 
 *Emulators with development / debugging capabilities*
 
+### Reverse engineering
+
+*Tools to reverse engineer the Sega Genesis platform*
+
+[Ghidra SMD loader](https://github.com/lab313ru/ghidra_sega_ldr) - Sega Genesis SMD loader for Ghidra
+[SMD IDA Tools](https://github.com/lab313ru/smd_ida_tools) - IDA plugin for SMD files
+[Scripts for IDA](https://github.com/zznop/ida-genesis) - Some scripts to support Sega Genesis RE
+
 ### Source codes
 
 *Any kind of source codes for the platform*
+
+[GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
