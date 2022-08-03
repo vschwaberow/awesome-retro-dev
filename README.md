@@ -56,7 +56,9 @@
 *Tools to reverse engineer the Sega Genesis platform*
 
 [Ghidra SMD loader](https://github.com/lab313ru/ghidra_sega_ldr) - Sega Genesis SMD loader for Ghidra
+
 [SMD IDA Tools](https://github.com/lab313ru/smd_ida_tools) - IDA plugin for SMD files
+
 [Scripts for IDA](https://github.com/zznop/ida-genesis) - Some scripts to support Sega Genesis RE
 
 ### <a name = "retro-sega-genesis-source-codes"></a>Source codes
