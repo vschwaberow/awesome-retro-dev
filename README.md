@@ -34,7 +34,7 @@
 
 *Complete toolchains to develop Sega Genesis programs*
 
-[Marsdev](https://github.com/andwn/marsdev) a complete cross platform development kit for Genesis / 32x
+[Marsdev](https://github.com/andwn/marsdev) a complete cross platform development kit for Genesis / 32x<br />
 
 ### <a name="retro-sega-genesis-ide">IDE
 
@@ -44,13 +44,13 @@
 
 *Hardware and it's firmware for the Sega Genesis*
 
-[Genesis Dumper](https://github.com/tonyp7/GenDumper) - Open Source hardware to dump cartridges
+[Genesis Dumper](https://github.com/tonyp7/GenDumper) - Open Source hardware to dump cartridges<br />
 
 ### <a name = "retro-sega-genesis-gui-tools"></a>GUI Tools
 
 *GUI tools for the Sega Genesis*
 
-[ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron. 
+[ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron.<br />
 
 ### <a name = "retro-sega-genesis-emulators"></a>Emulators
 
@@ -68,5 +68,5 @@
 
 *Any kind of source codes for the platform*
 
-[Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo
-[GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
+[Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo<br />
+[GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver<br />
