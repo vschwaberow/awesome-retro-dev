@@ -52,6 +52,8 @@
 
 *Tools to program assembler on the Sega Genesis*
 
+[VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - a cross assembler to produce m68k code<br />
+
 ### <a name = "retro-sega-genesis-command-line-tools"></a>Command line tools
 
 *Any kind of command line tools for doing Sega Genesis development*
