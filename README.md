@@ -1,6 +1,10 @@
 # Awesome Development for retro computers and consoles
 
 - [Awesome Development for retro computers and consoles](#awesome-retro)
+  - [Commodore 64](#commodore-64)
+    - [Assemblers](#retro-c64-assemblers)
+  - [Commodore Amiga](#commodore-amiga)
+    - [Assemblers](#retro-amiga-assemblers)
   - [Sega Genesis](#sega-genesis)
     - [Assemblers](#retro-sega-genesis-assemblers)
     - [Command line tools](#retro-sega-genesis-command-line-tools)
@@ -26,9 +30,24 @@
 
 ---
 
+## Commodore 64
+### <a name = "retro-c64-assemblers"></a>Assemblers
+
+*Tools to program assembler on the C64*
+
+[Kick Assembler](http://theweb.dk/KickAssembler/Main.html) - a cross assembler written in Java to produce 6502 code<br />
+
+## Commodore Amiga
+### <a name = "retro-amiga-assemblers"></a>Assemblers
+
+*Tools to program assembler on the Commodore Amiga*
+
+[VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - a cross assembler to produce m68k code<br />
+[VLINK](http://sun.hasenbraten.de/vlink/index.php?view=main) - a portable linker to produce Amiga code<br />
+
+
+
 ## Sega Genesis
-
-
 ### <a name = "retro-sega-genesis-assemblers"></a>Assemblers
 
 *Tools to program assembler on the Sega Genesis*
