@@ -36,6 +36,7 @@
 
 *Tools to program assembler on the C64*
 
+[C6510](https://csdb.dk/release/?id=219569&show=summary) - a cross assembler with LUA macro interface<br />
 [Kick Assembler](http://theweb.dk/KickAssembler/Main.html) - a cross assembler written in Java to produce 6502 code<br />
 
 ### <a name = "retro-c64-compilers"></a>Compilers
