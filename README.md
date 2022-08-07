@@ -3,6 +3,7 @@
 - [Awesome Development for retro computers and consoles](#awesome-retro)
   - [Commodore 64](#commodore-64)
     - [Assemblers](#retro-c64-assemblers)
+    - [Compilers](#retro-c64-compilers)
   - [Commodore Amiga](#commodore-amiga)
     - [Assemblers](#retro-amiga-assemblers)
   - [Sega Genesis](#sega-genesis)
@@ -36,6 +37,12 @@
 *Tools to program assembler on the C64*
 
 [Kick Assembler](http://theweb.dk/KickAssembler/Main.html) - a cross assembler written in Java to produce 6502 code<br />
+
+### <a name = "retro-c64-compilers"></a>Compilers
+
+*Compilers for the C64 platform*
+
+[CC65](https://cc65.github.io/) - a compiler to produce 6502 code<br />
 
 ## Commodore Amiga
 ### <a name = "retro-amiga-assemblers"></a>Assemblers
