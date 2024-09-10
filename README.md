@@ -16,7 +16,8 @@
     - [GUI Tools](#retro-sega-genesis-gui-tools)
     - [Emulators](#retro-sega-genesis-emulators)
     - [Reverse engineering](#retro-sega-genesis-reverse-engineering)
-    - [Source codes](#retro-sega-genesis-source-codes)
+    - [Demo Source codes](#retro-sega-genesis-demo-source-codes)
+    - [Game Source codes](#retro-sega-genesis-game-source-codes)
   - [Super Nintendo (SNES)](#retro-snes)
     - [Assemblers](#retro-snes-assemblers)
     - [Command line tools](#retro-snes-command-line-tools)
@@ -27,7 +28,7 @@
     - [GUI Tools](#retro-snes-gui-tools)
     - [Emulators](#retro-snes-emulators)
     - [Reverse engineering](#retro-snes-reverse-engineering)
-    - [Source codes](#retro-snes-source-codes)
+    - [Demo source codes](#retro-snes-demo-source-codes)
 
 ---
 
@@ -112,7 +113,7 @@
 [SMD IDA Tools](https://github.com/lab313ru/smd_ida_tools) - IDA plugin for SMD files<br />
 [Scripts for IDA](https://github.com/zznop/ida-genesis) - Some scripts to support Sega Genesis RE<br />
 
-### <a name = "retro-sega-genesis-source-codes"></a>Source codes
+### <a name = "retro-sega-genesis-demo-source-codes"></a>Source codes
 
 *Any kind of source codes for the platform*
 
@@ -124,9 +125,14 @@
 [L'Abbaye des Morts](https://github.com/moon-watcher/AbbayeMD) - Source code for a Sega Genesis game<br />
 [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker<br />
 
+### <a name = "retro-sega-genesis-game-source-codes"></a>Game Source codes
+
+*Source codes for games on the platform*
+[Sonic the Hedgehog 1 - C port](https://github.com/cuckydev/SoniCPort) - Source code for a C port of Sonic the Hedgehog 1<br />
+
 ## <a name="retro-snes"></a>Super Nintendo (SNES)
 
-### <a name = "retro-snes-source-codes"></a>Source codes
+### <a name = "retro-snes-demo-source-codes"></a>Source codes
 
 *Any kind of source codes for the platform*
 
