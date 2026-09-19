@@ -14,6 +14,7 @@
   - [Packers](#retro-atari-st-packers)
   - [Emulators](#retro-atari-st-emulators)
   - [Source Code](#retro-atari-st-source-codes)
+    - [Demo Source Code](#retro-atari-st-demo-source-codes)
     - [Cracktro Source Code](#retro-atari-st-cracktro-source-codes)
     - [Game Source Code](#retro-atari-st-game-source-codes)
 - [Commodore 64](#commodore-64)
@@ -22,6 +23,7 @@
   - [Graphics Tools](#retro-c64-graphics-tools)
   - [Music Tools](#retro-c64-music-tools)
   - [Source Code](#retro-c64-source-codes)
+    - [Demo Source Code](#retro-c64-demo-source-codes)
     - [Cracktro Source Code](#retro-c64-cracktro-source-codes)
 - [Commodore Amiga](#commodore-amiga)
   - [Assemblers](#retro-amiga-assemblers)
@@ -135,6 +137,15 @@
 
 ### <a name="retro-atari-st-source-codes"></a>Source Code
 
+#### <a name="retro-atari-st-demo-source-codes"></a>Demo Source Code
+
+- [demOS / Cybernetics Demo Sources](https://github.com/jhubrt/demOS) - C and 68000 assembly framework with sources for Atari STE productions including BLITZwav, Loveboot, and Relapse HD; hardware requirements vary by production
+- [FujiBoink](https://github.com/larsbrinkhoff/FujiBoink) - C and 68000 assembly sources for the classic Atari ST bouncing Fuji logo demo, with technical documentation
+- [Mono Mental](https://github.com/theseniordads/monomental) - Reconstructed assembly sources for the Senior Dads' 1998 demo; requires 1 MB RAM, TOS 1.04 or later, a hard drive, and a monochrome display
+- [Paradist](https://github.com/Gunstick/paradist) - 68000 assembly sources for a 1990 Atari ST demo screen, with explanations of its hardware tricks
+- [The Pleasuredemo](https://github.com/machinewrapped/pleasuredemo) - Recovered assembly sources for Cyberpunks UK's Atari ST demo collection, started in 1990; music has been removed
+- [voxel-st](https://github.com/indyjo/voxel-st) - Experimental VoxelSpace rendering demo in C and assembly for an Atari ST with 1 MB RAM, built with the MiNT GCC toolchain
+
 #### <a name="retro-atari-st-cracktro-source-codes"></a>Cracktro Source Code
 
 - [Ghostbusters Intro and Cracktro](https://github.com/diegoparrilla/atarist-ghostbusters-demo) - Original 1989 Atari ST assembly sources by Canal 23, with separate cracktro and sampled-audio demo builds and a Docker toolchain workflow
@@ -181,6 +192,15 @@
 - [GoatTracker 2](https://cadaver.github.io/tools.html) - A cross-platform C64 music editor with SID emulation, instrument tables, and a player for use in games and demos
 
 ### <a name="retro-c64-source-codes"></a>Source Code
+
+#### <a name="retro-c64-demo-source-codes"></a>Demo Source Code
+
+- [4Kindness](https://github.com/c64scene-ar/4kindness) - Sources and assets for a C64 4K intro, with C and assembly files and development notes in Spanish
+- [C64 Portal Demo Sources](https://github.com/c64portal/c64_code) - C sources for a Moonshine Dragons invitation and a Censor Design intro, using KickC and Oscar64 respectively; licensed under CC BY-NC-ND 4.0
+- [Cosine MD201509](https://github.com/magic-roundabout/md201509-c64) - Assembly sources and assets for Cosine's September 2015 monthly demo, built with ACME and PuCrunch
+- [DarkZone Flashback 2019](https://github.com/jskogsta/darkzone-flashback-2019) - Assembly sources for a rotating-logo demo submitted to Flashback 2019, using Kick Assembler; the project is an unfinished, unoptimized concept
+- [jer64 C64 Effects](https://github.com/jer64/demoscene) - C64 assembly experiments with polygon landscapes, voxel landscapes, and FLI graphics, in a repository that also contains PC demos
+- [tretton37 C64 Demo](https://github.com/kristofferjalen/c64-demo) - Kick Assembler sources for a presentation demo with scrolling text, a bitmap image, and music
 
 #### <a name="retro-c64-cracktro-source-codes"></a>Cracktro Source Code
 
@@ -235,6 +255,7 @@
 - [1000%](https://github.com/rrath/1000percent) - 680x0 assembly sources for the 1998 Amiga 40K intro, including rendering routines and effect code
 - [Alcatraz: Soil](https://github.com/virgill1974/Alcatraz-Soil) - C and assembly sources for an Amiga 500 40K intro, developed with vscode-amiga-debug and using LightSpeedPlayer for music playback
 - [Amiga Demos in 68000 ASM](https://github.com/smart-fun/Amiga) - Assembly sources for intros, scrollers, a rotozoom effect, and a music disk, with instructions for SEKA and AsmOne
+- [b0nefish Amiga Reconstructions](https://github.com/b0nefish/amiga) - Reverse-engineered assembly sources and reconstructed effect routines from historical Amiga demos
 - [Bronx Amiga Sources](https://github.com/bronxwhq/amiga) - Demo and intro sources from Bronx, including Darklord's BOB intro and Ghost's assembly startup code
 - [Circumvent](https://github.com/djh0ffman/TTE_Circumvent) - Assembly sources for TTE's Amiga intro from Revision 2024, coded by h0ffman and hoovephonique
 - [Cydonia and Sect Sources](https://github.com/apcro/Amiga-Demos) - Assembly sources for Defy disk magazines, the Scrapbook slideshow magazine, and the unreleased Black Moon demo; original includes and binary assets are missing
@@ -245,6 +266,7 @@
 - [FlexiTwister](https://github.com/christiangerbig/FlexiTwister) - Assembly source for Resistance's AGA production from Gerp 2025, with graphics and music; requires the linked Amiga and AGA include files
 - [Ghostown and Whelpz Demoscene Sources](https://github.com/cahirwpz/demoscene) - Amiga OCS demo and effect sources with a framework and build tools; binary assets require Git LFS
 - [Ikadalawampu](https://github.com/askeksa/Ikadalawampu) - Loonies' Amiga 4K intro from Breakpoint 2010, with assembly sources, data files, and a C port of its effect bytecode interpreter
+- [Immortal Visions](https://github.com/pawelmat/Amiga-Immortal-Visions) - Historical assembly sources for Suspect's 1992 Amiga OCS/ECS demo, with SEKA or AsmOne development instructions
 - [Moon's Amiga Sources](https://github.com/Moon70/Amiga-sources) - Assembly sources for Abyss intros, music disks, and bootblock effects, including the Drugstore OCS trackmo
 - [My Amiga Intros](https://github.com/spifd/MyAmigaIntros) - Assembly sources for 1990s intros and experiments; the author expects compatibility mainly with Kickstart 1.2 and 1.3
 - [NAPHTA](https://github.com/steffest/naphta) - Amiga OCS demo from RSync 2025, written in C with direct hardware access; builds with SAS/C and includes graphics and music assets
@@ -252,17 +274,21 @@
 - [Old Jobbo Amiga Code](https://github.com/rjobling/Old-Jobbo-Amiga-Code) - Demo routines and two intros from 1994–1997, originally assembled with Devpac 3 for the A1200; includes unfinished effects
 - [ORDO](https://github.com/steffest/ordo) - A system-friendly demo written in C for SAS/C, with bitmap loading, blitter effects, palette changes, and tracker music playback
 - [Parcade](https://github.com/jonathanbennett73/amiga-parcade) - An Amiga 500 intro in 68000 assembly with sine scrollers, blitter objects, and vector effects
+- [Philippe Chalamet's Amiga Sources](https://github.com/pchalamet/amiga-sources) - Historical demo sources for Amiga 500, 1200, and 4000 systems, written in 680x0 assembly for Devpac
 - [Planartunnel](https://github.com/Ozzyboshi/Planartunnel) - OCS/ECS 4K intro with a spaceship tunnel animation and music; builds with VASM, Shrinkler, and the supplied Makefile
 - [Planet Rocklobster](https://github.com/AxisOxy/Planet-Rocklobster) - Source code for Oxyron's Amiga OCS demo, with technical explanations of its rendering effects
 - [PlusEqualsPlus](https://github.com/roger-wetzel/PlusEqualsPlus) - Source code for Spreadpoint's OCS demo from MountainBytes 2026, targeting a PAL 68000 Amiga with 512 KB of chip RAM and 512 KB of additional RAM
 - [Rampage Effects](https://github.com/tcurdt/rampage) - Assembly sources for the rotating circles and 3D mirror effects contributed to The Electronic Knights' 1994 trackmo
 - [Rodonea](https://github.com/Ozzyboshi/Rodonea) - C and assembly sources for a Flashparty 2020 demo using rose-curve animations; requires 1 MB of chip RAM and uses GCC, VASM, and ACE routines
+- [Sax Offender](https://github.com/jonathanbennett73/amiga-pjz-sax-offender) - Planet Jazz's Amiga 500 demo in 68000 assembly, with graphics conversion scripts and a Windows build setup using VASM and WinUAE
 - [Serendipity](https://github.com/tgreaves/serendipity) - 68000 assembly source for an Amiga music disk, with graphics, music modules, and PowerPacker includes
 - [System: Zoetrope](https://github.com/astrofra/system-zoetrope-amiga-demo) - Mandarine's Amiga OCS demo from Outline 2015, written in C and using graphics.library calls for scrolling, copper lists, and blitter objects
 - [The Crows](https://github.com/Ozzyboshi/AmigaDemo_the_crows) - Assembly demo with documented copper lists, blitter effects, hardware sprites, dual playfields, and MOD playback
 - [Timur Lenk and Fistpig](https://github.com/drslem/Spb-Eph-Amiga-4k) - Original assembly sources for Spaceballs and Ephidrena's 2003 Amiga 4K intros; build with AsmOne, but the original cruncher is not included
 - [Unusual Suspects](https://github.com/astrofra/demo-unusual-suspects) - A system-friendly Amiga demo written in C for SAS/C 6.58, targeting classic machines from the A500 with AmigaOS 2.0 to the A4000
+- [Varathron](https://github.com/pawelmat/Amiga-Varathron) - Historical assembly sources for Suspect's 1993 Amiga OCS/ECS demo; some recovered files may be damaged, and includes and external references need repairs
 - [Vertex](https://github.com/Bensakone/Vertex) - Original 1993 Red Chrome demo source package, including assembly code, pictures, music, and include files
+- [Whelpz AGA Demo and Effects](https://github.com/cahirwpz/demoscene-aga) - C and assembly sources for Amiga AGA demo effects, with a demo engine, timeline control, and audio routines
 
 #### <a name="retro-amiga-cracktro-source-codes"></a>Cracktro Source Code
 
@@ -372,9 +398,15 @@
 
 #### <a name="retro-sega-genesis-demo-source-codes"></a>Demo Source Code
 
+- [DayTrip](https://github.com/sigflup/daytrip) - Sega Genesis demo sources in C and assembly, with production code in the demo directory
 - [Demo Malabars-Bumper](https://github.com/ResistanceVault/demo-Malabars-Bumper) - Source code for a Sega Genesis demo
 - [Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo
 - [Demo Zsenilla](https://github.com/ResistanceVault/demo-Zsenilia) - Source code for a Sega Genesis demo
+- [Genesis Background Effects Demo](https://github.com/kcowolf/GenBackgroundEffectsDemo) - C sources for a Sega Genesis graphics demo with background effects
+- [Genesis Scrolling Map Demo](https://github.com/kcowolf/GenScrollingMapDemo) - C sources for a Sega Genesis scrolling map demo, with map rendering and controller handling
+- [Nuance Intro](https://github.com/AndyMunich/__intro) - C and assembly sources for a Nuance demoscene intro on Sega Genesis
+- [SGDK Raycasting Demo](https://github.com/fabri1983/raycasting_anael) - Optimized C and assembly version of Anael Seghezzi's raycasting demo for SGDK; requires a six-button controller
+- [The Spiral](https://github.com/ResistanceVault/demo-The-Spiral) - Resistance's Sega Genesis demo sources for SGDK 1.34, with separate 50 Hz and 60 Hz builds
 
 #### <a name="retro-sega-genesis-game-source-codes"></a>Game Source Code
 
@@ -468,6 +500,12 @@
 
 - [Cream Demo](https://github.com/HackerHarry/creamdemo) - Assembly source for a SNES demo from 1994; binary music data is not included
 - [Demo-Twistit](https://github.com/ResistanceVault/demo-twistit) - Source code for a SNES demo
+- [From 80s with Love](https://github.com/alundr4/from80withlove) - Assembly sources and assets for a SNES demo, with separate scene modules
+- [HDMA Demo](https://github.com/koitsu/hdmademo) - Sources for a 1993 SNES graphics demo with animated color bands and scrolling effects, including modern ca65 adaptations
+- [SNES-202X Tech Demos](https://github.com/MarkAlarm/SNES-202X) - Assembly examples and technical demos in the asm/demos directory of a broader SNES development collection
+- [SNES/SA-1 3D Demo](https://github.com/snesdev0815/SNES-SA-1-demo) - Assembly sources for d4s's 2010 3D demo, built with WLA-DX; requires the SA-1 enhancement chip
+- [SuperFX Demo](https://github.com/secondsun/snes-sfx-demo) - Technical demo displaying a bitmap with flashing colors, with assembly sources; requires the Super FX enhancement chip
+- [The Moon Base](https://github.com/gyuque/snes-m7) - Assembly sources for an NTSC SNES Mode 7 test program, built with the cc65 toolchain
 
 #### <a name="retro-snes-cracktro-source-codes"></a>Cracktro and Trainer Intro Source Code
 
