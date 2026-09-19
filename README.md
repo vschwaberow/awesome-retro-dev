@@ -3,10 +3,14 @@
 ## Table of Contents
 
 - [Atari ST](#atari-st)
+  - [Assemblers](#retro-atari-st-assemblers)
+  - [C and C++ Toolchains](#retro-atari-st-c-and-cpp-toolchains)
   - [Frameworks and Libraries](#retro-atari-st-frameworks-and-libraries)
   - [Development Tools](#retro-atari-st-development-tools)
     - [Devkits](#retro-atari-st-devkit)
     - [IDEs](#retro-atari-st-ide)
+  - [Graphics Tools](#retro-atari-st-graphics-tools)
+  - [Music Tools](#retro-atari-st-music-tools)
   - [Packers](#retro-atari-st-packers)
   - [Emulators](#retro-atari-st-emulators)
   - [Source Code](#retro-atari-st-source-codes)
@@ -14,12 +18,17 @@
     - [Game Source Code](#retro-atari-st-game-source-codes)
 - [Commodore 64](#commodore-64)
   - [Assemblers](#retro-c64-assemblers)
-  - [Compilers](#retro-c64-compilers)
+  - [C and C++ Toolchains](#retro-c64-c-and-cpp-toolchains)
+  - [Graphics Tools](#retro-c64-graphics-tools)
+  - [Music Tools](#retro-c64-music-tools)
   - [Source Code](#retro-c64-source-codes)
     - [Cracktro Source Code](#retro-c64-cracktro-source-codes)
 - [Commodore Amiga](#commodore-amiga)
   - [Assemblers](#retro-amiga-assemblers)
+  - [C and C++ Toolchains](#retro-amiga-c-and-cpp-toolchains)
   - [Linkers](#retro-amiga-linkers)
+  - [Graphics Tools](#retro-amiga-graphics-tools)
+  - [Music Tools](#retro-amiga-music-tools)
   - [Source Code](#retro-amiga-source-codes)
     - [Demo Source Code](#retro-amiga-demo-source-codes)
     - [Cracktro Source Code](#retro-amiga-cracktro-source-codes)
@@ -27,12 +36,13 @@
     - [Examples](#retro-amiga-examples)
 - [Sega Genesis](#sega-genesis)
   - [Assemblers](#retro-sega-genesis-assemblers)
+  - [C and C++ Toolchains](#retro-sega-genesis-c-and-cpp-toolchains)
   - [Development Tools](#retro-sega-genesis-development-tools)
     - [Command Line Tools](#retro-sega-genesis-command-line-tools)
-    - [Devkits](#retro-sega-genesis-devkit)
     - [IDEs](#retro-sega-genesis-ide)
   - [Hardware](#retro-sega-genesis-hardware)
-  - [GUI Tools](#retro-sega-genesis-gui-tools)
+  - [Graphics Tools](#retro-sega-genesis-graphics-tools)
+  - [Music Tools](#retro-sega-genesis-music-tools)
   - [Reverse Engineering](#retro-sega-genesis-reverse-engineering)
   - [Source Code](#retro-sega-genesis-source-codes)
     - [Demo Source Code](#retro-sega-genesis-demo-source-codes)
@@ -40,10 +50,12 @@
     - [Tools and Sound Drivers](#retro-sega-genesis-tools-and-sound-drivers)
 - [Super Nintendo (SNES)](#super-nintendo-snes)
   - [Assemblers](#retro-snes-assemblers)
+  - [C and C++ Toolchains](#retro-snes-c-and-cpp-toolchains)
   - [Development Tools](#retro-snes-development-tools)
-    - [Command Line Tools](#retro-snes-command-line-tools)
     - [Devkits](#retro-snes-devkit)
-  - [Audio Tools and Libraries](#retro-snes-audio-tools-and-libraries)
+  - [Graphics Tools](#retro-snes-graphics-tools)
+  - [Music Tools](#retro-snes-music-tools)
+    - [Audio Libraries and Drivers](#retro-snes-audio-libraries-and-drivers)
   - [Emulators](#retro-snes-emulators)
   - [Documentation and Tutorials](#retro-snes-documentation-and-tutorials)
   - [Source Code](#retro-snes-source-codes)
@@ -55,6 +67,20 @@
 ---
 
 ## Atari ST
+
+### <a name="retro-atari-st-assemblers"></a>Assemblers
+
+*Assemblers for Atari ST programs*
+
+- [RMAC](https://rmac.is-slick.com/) - A macro assembler with 68000 support and Atari ST executable output, available for modern host systems and the Atari ST
+- [VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - A portable assembler with a 68000 backend, Motorola syntax, and Atari TOS executable output
+
+### <a name="retro-atari-st-c-and-cpp-toolchains"></a>C and C++ Toolchains
+
+*C and C++ compilers and runtime support for Atari ST software*
+
+- [MiNT GCC](https://github.com/freemint/m68k-atari-mint-gcc) - GCC with C and C++ support for Atari TOS/MiNT targets; use the matching binutils and target libraries to complete the toolchain
+- [vbcc](http://sun.hasenbraten.de/vbcc/) - An optimizing C compiler with Atari TOS and MiNT target packages, available for native and cross-development; does not compile C++
 
 ### <a name="retro-atari-st-frameworks-and-libraries"></a>Frameworks and Libraries
 
@@ -74,6 +100,20 @@
 #### <a name="retro-atari-st-ide"></a>IDEs
 
 - [Atari ST Dev](https://github.com/dgis/vscode-atari-st-dev) - A Visual Studio Code extension for C, C++, and 68k assembly development using GCC/GDB and a modified Hatari emulator
+
+### <a name="retro-atari-st-graphics-tools"></a>Graphics Tools
+
+*Pixel editors and image converters for Atari ST graphics*
+
+- [Dithertron](https://github.com/sehugg/dithertron) - A browser image converter with a 320x200, 16-color Atari ST preset; exports PNG images that need conversion to a native ST format
+- [GrafX2](https://grafx2.gitlab.io/grafX2/) - A pixel editor for modern systems, with Atari MiNT builds and support for reading and writing Degas PI1/PC1 and NeoChrome images
+
+### <a name="retro-atari-st-music-tools"></a>Music Tools
+
+*Music editors for the Atari ST's YM2149 sound chip*
+
+- [Arkos Tracker](https://www.julien-nevo.com/arkostracker/) - A desktop AY/YM tracker with an AKY replay routine for Atari ST; the ST player does not support sound effects
+- [maxYMiser](https://preromanbritain.com/maxymiser/) - A native Atari ST YM2149 tracker with instrument editing, MIDI support, and a replay routine; DMA sample features require an STE or compatible machine
 
 ### <a name="retro-atari-st-packers"></a>Packers
 
@@ -114,14 +154,31 @@
 
 *Tools to program assembler on the C64*
 
+- [ACME](https://github.com/meonwax/acme) - A cross assembler for 6502 and 6510 code, including undocumented opcodes, macros, and binary inclusion; this repository mirrors the SourceForge project
 - [C6510](https://csdb.dk/release/?id=219569&show=summary) - A cross assembler with LUA macro interface
 - [Kick Assembler](http://theweb.dk/KickAssembler/Main.html) - A cross assembler written in Java to produce 6502 code
 
-### <a name="retro-c64-compilers"></a>Compilers
+### <a name="retro-c64-compilers"></a><a name="retro-c64-c-and-cpp-toolchains"></a>C and C++ Toolchains
 
-*Compilers for the C64 platform*
+*Cross compilers and runtime libraries for C64 software*
 
-- [CC65](https://cc65.github.io/) - A compiler to produce 6502 code
+- [CC65](https://cc65.github.io/) - A C cross-development suite with a compiler, assembler, linker, and C64 runtime libraries; does not compile C++
+- [LLVM-MOS SDK](https://github.com/llvm-mos/llvm-mos-sdk) - A Clang-based C and C++ cross-development SDK with a C64 target and runtime libraries; C++ exceptions are not supported
+- [Oscar64](https://github.com/drmortalwombat/oscar64) - A C99 and partial C++ cross compiler focused on Commodore 6502 machines, with C64 libraries, banked cartridge support, and disk overlays
+
+### <a name="retro-c64-graphics-tools"></a>Graphics Tools
+
+*Editors for C64 character sets, tiles, maps, and bitmap graphics*
+
+- [CharPad C64 Pro](https://subchristsoftware.itch.io/charpad-c64-pro) - A commercial Windows editor for C64 character sets, tiles, fonts, and maps, with bitmap import and binary data export
+- [Pixcen](https://github.com/Hammarberg/pixcen) - A Windows pixel editor designed for C64 graphics, with source code and downloadable binaries
+
+### <a name="retro-c64-music-tools"></a>Music Tools
+
+*SID music editors for C64 productions*
+
+- [CheeseCutter](https://github.com/theyamo/CheeseCutter) - A desktop SID tracker with a C64 player and utilities for exporting songs for playback on the target machine
+- [GoatTracker 2](https://cadaver.github.io/tools.html) - A cross-platform C64 music editor with SID emulation, instrument tables, and a player for use in games and demos
 
 ### <a name="retro-c64-source-codes"></a>Source Code
 
@@ -138,13 +195,36 @@
 
 *Tools to program assembler on the Commodore Amiga*
 
+- [Asm-Pro](https://github.com/MK1Roxxor/ASMPro) - Source code for a native Amiga 680x0 assembler with an integrated editor, monitor, and disassembler
 - [VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - A cross assembler to produce m68k code
+
+### <a name="retro-amiga-c-and-cpp-toolchains"></a>C and C++ Toolchains
+
+*Native and cross-development compilers for classic Amiga systems*
+
+- [amiga-gcc](https://codeberg.org/bebbo/amiga-gcc) - A build system for a classic Amiga GCC cross-toolchain with C and C++ libraries, binutils, and Amiga-specific development tools
+- [vbcc](http://sun.hasenbraten.de/vbcc/) - An optimizing C compiler with classic AmigaOS target libraries and native or cross-development packages; does not compile C++
 
 ### <a name="retro-amiga-linkers"></a>Linkers
 
 *Linkers for the Commodore Amiga*
 
 - [VLINK](http://sun.hasenbraten.de/vlink/index.php?view=main) - A portable linker to produce Amiga code
+
+### <a name="retro-amiga-graphics-tools"></a>Graphics Tools
+
+*Pixel editors for Amiga images and animation assets*
+
+- [GrafX2](https://grafx2.gitlab.io/grafX2/) - A pixel editor with palette tools, color cycling, and Amiga IFF/ILBM image support; EHB images are not preserved as EHB when saved
+- [PyDPainter](https://github.com/mriale/PyDPainter) - A Deluxe Paint-inspired editor for modern computers, with Amiga IFF and ANIM support, palette cycling, and animation tools
+
+### <a name="retro-amiga-music-tools"></a>Music Tools
+
+*Trackers for composing music for classic Amiga productions*
+
+- [HivelyTracker](https://github.com/pete-gordon/hivelytracker) - A chip music tracker with AHX import and export, an extended HVL format, and replay routines for Amiga productions
+- [ProTracker 2 Clone](https://github.com/8bitbubsy/pt2-clone) - A ProTracker 2.3D-style MOD editor for Windows, macOS, and Linux, with sample editing and Amiga audio emulation
+- [ProTracker 2.3F](https://github.com/8bitbubsy/pt23f) - A native Amiga 68k tracker continuing ProTracker 2.3D, with playback fixes for fast Amigas and support for larger samples
 
 ### <a name="retro-amiga-source-codes"></a>Source Code
 
@@ -230,7 +310,15 @@
 
 *Tools to program assembler on the Sega Genesis*
 
+- [Macroassembler AS](https://github.com/Macroassembler-AS/asl-releases) - A cross assembler with Motorola 68000 and Z80 backends for the Genesis CPUs; source releases are preserved on the upstream branch
 - [VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - A cross assembler to produce m68k code
+
+### <a name="retro-sega-genesis-devkit"></a><a name="retro-sega-genesis-c-and-cpp-toolchains"></a>C and C++ Toolchains
+
+*Cross-development toolchains for Sega Genesis and Mega Drive software*
+
+- [Marsdev](https://github.com/andwn/marsdev) - A GCC cross-toolchain for Mega Drive and 32X, with optional C++ builds, Newlib, and SGDK integration
+- [SGDK](https://github.com/Stephane-D/SGDK) - A C development kit for Mega Drive with a GCC toolchain, hardware libraries, examples, and resource conversion tools
 
 ### <a name="retro-sega-genesis-development-tools"></a>Development Tools
 
@@ -240,13 +328,6 @@
 
 - [Sega Genesis Rom Checksum Utility](https://github.com/mrhappyasthma/Sega-Genesis-Checksum-Utility) - Python scripts to correct the ROM checksum
 - [SVP Development Tools](https://github.com/jdesiloniz/svpdev) - Development tools for the SVP chip, found in Virtua Racing cartridges
-
-#### <a name="retro-sega-genesis-devkit"></a>Devkits
-
-*Complete toolchains to develop Sega Genesis programs*
-
-- [Marsdev](https://github.com/andwn/marsdev) - A complete cross-platform development kit for Genesis / 32x
-- [SGDK](https://github.com/Stephane-D/SGDK) - A complete cross-platform development kit for Sega Genesis / 32x
 
 #### <a name="retro-sega-genesis-ide"></a>IDEs
 
@@ -259,13 +340,22 @@
 - [Genesis Dumper](https://github.com/tonyp7/GenDumper) - Open Source hardware to dump cartridges
 - [Opendrive-Genesis](https://github.com/soniccd123/OpenDrive-Genesis) - Open Hardware Flashcard for the Sega Genesis/32X
 
-### <a name="retro-sega-genesis-gui-tools"></a>GUI Tools
+### <a name="retro-sega-genesis-gui-tools"></a><a name="retro-sega-genesis-graphics-tools"></a>Graphics Tools
 
-*GUI tools for the Sega Genesis*
+*Editors and converters for Genesis graphics and level assets*
 
 - [Codemasters Image Converter](https://github.com/lab313ru/CodemastersBinImage) - Extract and insert graphics in Codemasters games
 - [Mega Happy Sprite](https://github.com/sigflup/Mega-Happy-Sprite) - Sprite/Scrollpane editor for the Sega Genesis
-- [ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron
+- [SGDK ResComp](https://github.com/Stephane-D/SGDK/blob/master/bin/rescomp.txt) - SGDK's resource compiler for palettes, tilesets, tilemaps, and animated sprites, with assembly output for use in a game build
+- [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) - A desktop tilemap editor with Genesis map format support and sample assets
+
+### <a name="retro-sega-genesis-music-tools"></a>Music Tools
+
+*Native and desktop trackers for Genesis FM and PSG music*
+
+- [Furnace](https://github.com/tildearrow/furnace) - A desktop chiptune tracker with YM2612 and SN76489 support and VGM export; game integration requires a compatible player or conversion tool
+- [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker
+- [ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - An abandoned Electron-based Genesis tracker with support for multiple sound drivers and VGM export
 
 ### <a name="retro-sega-genesis-reverse-engineering"></a>Reverse Engineering
 
@@ -305,7 +395,6 @@
 
 - [GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
 - [Genesis Debugger](https://github.com/flamewing/genesis-debugger) - Source code for a debugger on Sega Genesis
-- [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker
 
 ---
 
@@ -317,24 +406,40 @@
 
 - [Asar](https://github.com/RPGHacker/asar) - An assembler for creating SNES ROMs and applying patches, with 65c816, SPC700, and Super FX support
 - [bass](https://github.com/ARM9/bass) - A macro assembler for multiple architectures, including the SNES; this fork includes Super FX/GSU support
+- [ca65](https://cc65.github.io/doc/ca65.html) - The cc65 suite's macro assembler with 65816 support, used with the ld65 linker for SNES projects; the cc65 C compiler does not target the SNES CPU
 - [WLA-DX](https://github.com/vhelin/wla-dx) - A cross assembler and linker package with 65816, SPC700, and Super FX support
 
+### <a name="retro-snes-c-and-cpp-toolchains"></a>C and C++ Toolchains
+
+*C toolchains for SNES development; the tools listed here do not provide C++ support*
+
+- [Calypsi 65816](https://www.calypsi.cc/) - A C99 cross-toolchain with a SNES target that can use the console's hardware arithmetic units; closed source and free for hobby use
+- [PVSnesLib](https://github.com/alekmaul/pvsneslib) - A C and assembly development kit with a compiler, linker, hardware libraries, asset tools, and examples
+
 ### <a name="retro-snes-development-tools"></a>Development Tools
-
-#### <a name="retro-snes-command-line-tools"></a>Command Line Tools
-
-*Asset conversion tools for SNES development*
-
-- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - A command line converter for palettes, tiles, and tilemaps, with support for SNES graphics modes including Mode 7
 
 #### <a name="retro-snes-devkit"></a>Devkits
 
 *Toolchains and libraries for SNES development*
 
-- [PVSnesLib](https://github.com/alekmaul/pvsneslib) - A C and assembly development kit with a compiler, linker, hardware libraries, asset tools, and examples
 - [SNESKIT](https://github.com/mukunda-/sneskit) - A low-level SNES development kit with build tools, project templates, and a SNESMOD example
 
-### <a name="retro-snes-audio-tools-and-libraries"></a>Audio Tools and Libraries
+### <a name="retro-snes-command-line-tools"></a><a name="retro-snes-graphics-tools"></a>Graphics Tools
+
+*Editors and converters for SNES palettes, tiles, sprites, and tilemaps*
+
+- [gfx4snes](https://github.com/alekmaul/pvsneslib/tree/master/tools/gfx4snes) - PVSnesLib's PNG/BMP converter for SNES tiles, palettes, maps, and metasprites, including Mode 7 output
+- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - A command line converter for palettes, tiles, and tilemaps, with support for SNES graphics modes including Mode 7
+- [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) - A desktop tilemap editor with SNES map format support and sample assets
+
+### <a name="retro-snes-audio-tools-and-libraries"></a><a name="retro-snes-music-tools"></a>Music Tools
+
+*Editors for composing music and sound effects for SNES projects*
+
+- [OpenMPT](https://openmpt.org/) - A Windows tracker for composing Impulse Tracker modules for a SNESMOD conversion workflow; songs must follow the audio driver's format and memory limits
+- [SNESGSS](https://github.com/nathancassano/snesgss) - A Windows music and sound effect editor for SNES homebrew, with sample-bank export and an SPC700 playback driver
+
+#### <a name="retro-snes-audio-libraries-and-drivers"></a>Audio Libraries and Drivers
 
 *Music and sound effect libraries for the SNES*
 
