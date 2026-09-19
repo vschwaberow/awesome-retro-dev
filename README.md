@@ -9,6 +9,7 @@
   - [Development Tools](#retro-atari-st-development-tools)
     - [Devkits](#retro-atari-st-devkit)
     - [IDEs](#retro-atari-st-ide)
+    - [Resource Editors](#retro-atari-st-resource-editors)
   - [Graphics Tools](#retro-atari-st-graphics-tools)
   - [Music Tools](#retro-atari-st-music-tools)
   - [Packers](#retro-atari-st-packers)
@@ -20,6 +21,7 @@
 - [Commodore 64](#commodore-64)
   - [Assemblers](#retro-c64-assemblers)
   - [C and C++ Toolchains](#retro-c64-c-and-cpp-toolchains)
+  - [Development Tools](#retro-c64-development-tools)
   - [Graphics Tools](#retro-c64-graphics-tools)
   - [Music Tools](#retro-c64-music-tools)
   - [Source Code](#retro-c64-source-codes)
@@ -29,8 +31,10 @@
   - [Assemblers](#retro-amiga-assemblers)
   - [C and C++ Toolchains](#retro-amiga-c-and-cpp-toolchains)
   - [Linkers](#retro-amiga-linkers)
+  - [Development Tools](#retro-amiga-development-tools)
   - [Graphics Tools](#retro-amiga-graphics-tools)
   - [Music Tools](#retro-amiga-music-tools)
+  - [Packers](#retro-amiga-packers)
   - [Source Code](#retro-amiga-source-codes)
     - [Demo Source Code](#retro-amiga-demo-source-codes)
     - [Cracktro Source Code](#retro-amiga-cracktro-source-codes)
@@ -45,6 +49,7 @@
   - [Hardware](#retro-sega-genesis-hardware)
   - [Graphics Tools](#retro-sega-genesis-graphics-tools)
   - [Music Tools](#retro-sega-genesis-music-tools)
+  - [Emulators](#retro-sega-genesis-emulators)
   - [Reverse Engineering](#retro-sega-genesis-reverse-engineering)
   - [Source Code](#retro-sega-genesis-source-codes)
     - [Demo Source Code](#retro-sega-genesis-demo-source-codes)
@@ -54,6 +59,7 @@
   - [Assemblers](#retro-snes-assemblers)
   - [C and C++ Toolchains](#retro-snes-c-and-cpp-toolchains)
   - [Development Tools](#retro-snes-development-tools)
+    - [Command Line Tools](#retro-snes-cli-tools)
     - [Devkits](#retro-snes-devkit)
   - [Graphics Tools](#retro-snes-graphics-tools)
   - [Music Tools](#retro-snes-music-tools)
@@ -103,11 +109,16 @@
 
 - [Atari ST Dev](https://github.com/dgis/vscode-atari-st-dev) - A Visual Studio Code extension for C, C++, and 68k assembly development using GCC/GDB and a modified Hatari emulator
 
+#### <a name="retro-atari-st-resource-editors"></a>Resource Editors
+
+- [ORCS](https://tho-otto.de/downloads.html) - A resource editor for creating and editing GEM resource files for Atari applications
+
 ### <a name="retro-atari-st-graphics-tools"></a>Graphics Tools
 
-*Pixel editors and image converters for Atari ST graphics*
+*Pixel and font editors and image converters for Atari ST graphics*
 
 - [Dithertron](https://github.com/sehugg/dithertron) - A browser image converter with a 320x200, 16-color Atari ST preset; exports PNG images that need conversion to a native ST format
+- [gemfedit](https://github.com/th-otto/gemfedit) - A native Atari GDOS font editor, with separate viewers for Unix and Windows and a command line converter to BDF format
 - [GrafX2](https://grafx2.gitlab.io/grafX2/) - A pixel editor for modern systems, with Atari MiNT builds and support for reading and writing Degas PI1/PC1 and NeoChrome images
 
 ### <a name="retro-atari-st-music-tools"></a>Music Tools
@@ -177,6 +188,13 @@
 - [LLVM-MOS SDK](https://github.com/llvm-mos/llvm-mos-sdk) - A Clang-based C and C++ cross-development SDK with a C64 target and runtime libraries; C++ exceptions are not supported
 - [Oscar64](https://github.com/drmortalwombat/oscar64) - A C99 and partial C++ cross compiler focused on Commodore 6502 machines, with C64 libraries, banked cartridge support, and disk overlays
 
+### <a name="retro-c64-development-tools"></a>Development Tools
+
+*Tools for writing and debugging C64 software*
+
+- [C64 Studio](https://github.com/GeorgRottensteiner/C64Studio) - A Windows .NET IDE for assembly and BASIC, with charset, sprite, and media editors and debugging through VICE
+- [Retro Debugger](https://github.com/slajerek/RetroDebugger) - An interactive code and memory debugger with an integrated C64 emulator; currently in beta and requires separately supplied system ROMs
+
 ### <a name="retro-c64-graphics-tools"></a>Graphics Tools
 
 *Editors for C64 character sets, tiles, maps, and bitmap graphics*
@@ -231,6 +249,12 @@
 
 - [VLINK](http://sun.hasenbraten.de/vlink/index.php?view=main) - A portable linker to produce Amiga code
 
+### <a name="retro-amiga-development-tools"></a>Development Tools
+
+*Host tools for working with classic Amiga programs and files*
+
+- [amitools](https://github.com/cnvogelg/amitools) - Python tools for creating ADF/HDF images, inspecting Hunk binaries, and running Amiga CLI programs through vamos; primarily for Unix-like hosts
+
 ### <a name="retro-amiga-graphics-tools"></a>Graphics Tools
 
 *Pixel editors for Amiga images and animation assets*
@@ -245,6 +269,12 @@
 - [HivelyTracker](https://github.com/pete-gordon/hivelytracker) - A chip music tracker with AHX import and export, an extended HVL format, and replay routines for Amiga productions
 - [ProTracker 2 Clone](https://github.com/8bitbubsy/pt2-clone) - A ProTracker 2.3D-style MOD editor for Windows, macOS, and Linux, with sample editing and Amiga audio emulation
 - [ProTracker 2.3F](https://github.com/8bitbubsy/pt23f) - A native Amiga 68k tracker continuing ProTracker 2.3D, with playback fixes for fast Amigas and support for larger samples
+
+### <a name="retro-amiga-packers"></a>Packers
+
+*Executable and data compression tools for the Amiga*
+
+- [Shrinkler](https://github.com/askeksa/Shrinkler) - An Amiga executable and data compressor designed for small intros, with 68000 decompression routines
 
 ### <a name="retro-amiga-source-codes"></a>Source Code
 
@@ -352,6 +382,7 @@
 
 *Command line tools for Sega Genesis development*
 
+- [mdcomp](https://github.com/flamewing/mdcomp) - Compression and decompression tools for Mega Drive data formats, including Kosinski, Nemesis, and Enigma, with assembly routines
 - [Sega Genesis Rom Checksum Utility](https://github.com/mrhappyasthma/Sega-Genesis-Checksum-Utility) - Python scripts to correct the ROM checksum
 - [SVP Development Tools](https://github.com/jdesiloniz/svpdev) - Development tools for the SVP chip, found in Virtua Racing cartridges
 
@@ -382,6 +413,12 @@
 - [Furnace](https://github.com/tildearrow/furnace) - A desktop chiptune tracker with YM2612 and SN76489 support and VGM export; game integration requires a compatible player or conversion tool
 - [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker
 - [ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - An abandoned Electron-based Genesis tracker with support for multiple sound drivers and VGM export
+
+### <a name="retro-sega-genesis-emulators"></a>Emulators
+
+*Emulators for running and debugging Sega Genesis software*
+
+- [BlastEm](https://www.retrodev.com/blastem/) - A Genesis emulator with an integrated debugger, conditional breakpoints, GDB remote debugging, and visual tools for inspecting VDP state
 
 ### <a name="retro-sega-genesis-reverse-engineering"></a>Reverse Engineering
 
@@ -450,6 +487,10 @@
 
 ### <a name="retro-snes-development-tools"></a>Development Tools
 
+#### <a name="retro-snes-cli-tools"></a>Command Line Tools
+
+- [SuperFamicheck](https://github.com/Optiroc/SuperFamicheck) - A command line tool to inspect and optionally correct SNES ROM headers, including checksums, titles, and size fields
+
 #### <a name="retro-snes-devkit"></a>Devkits
 
 *Toolchains and libraries for SNES development*
@@ -461,6 +502,7 @@
 *Editors and converters for SNES palettes, tiles, sprites, and tilemaps*
 
 - [gfx4snes](https://github.com/alekmaul/pvsneslib/tree/master/tools/gfx4snes) - PVSnesLib's PNG/BMP converter for SNES tiles, palettes, maps, and metasprites, including Mode 7 output
+- [M8TE](https://github.com/nesdoug/M8TE) - An editor for SNES 8-bpp tiles, tilemaps, and palettes for Mode 3 and Mode 7; uses .NET Framework 4.5.2, with Mono support on other systems
 - [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - A command line converter for palettes, tiles, and tilemaps, with support for SNES graphics modes including Mode 7
 - [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) - A desktop tilemap editor with SNES map format support and sample assets
 
