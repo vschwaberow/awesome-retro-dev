@@ -1,38 +1,29 @@
 # Awesome Development for Retro Computers and Consoles
 
 ## Table of Contents
+
 - [Commodore 64](#commodore-64)
   - [Assemblers](#retro-c64-assemblers)
   - [Compilers](#retro-c64-compilers)
 - [Commodore Amiga](#commodore-amiga)
   - [Assemblers](#retro-amiga-assemblers)
+  - [Linkers](#retro-amiga-linkers)
 - [Sega Genesis](#sega-genesis)
   - [Assemblers](#retro-sega-genesis-assemblers)
-  - [Compilers](#retro-sega-genesis-compilers)
   - [Development Tools](#retro-sega-genesis-development-tools)
     - [Command Line Tools](#retro-sega-genesis-command-line-tools)
     - [Devkits](#retro-sega-genesis-devkit)
     - [IDEs](#retro-sega-genesis-ide)
   - [Hardware](#retro-sega-genesis-hardware)
   - [GUI Tools](#retro-sega-genesis-gui-tools)
-  - [Emulators](#retro-sega-genesis-emulators)
   - [Reverse Engineering](#retro-sega-genesis-reverse-engineering)
-  - [Source Codes](#retro-sega-genesis-source-codes)
-    - [Demo Source Codes](#retro-sega-genesis-demo-source-codes)
-    - [Game Source Codes](#retro-sega-genesis-game-source-codes)
+  - [Source Code](#retro-sega-genesis-source-codes)
+    - [Demo Source Code](#retro-sega-genesis-demo-source-codes)
+    - [Game Source Code](#retro-sega-genesis-game-source-codes)
+    - [Tools and Sound Drivers](#retro-sega-genesis-tools-and-sound-drivers)
 - [Super Nintendo (SNES)](#super-nintendo-snes)
-  - [Assemblers](#retro-snes-assemblers)
-  - [Compilers](#retro-snes-compilers)
-  - [Development Tools](#retro-snes-development-tools)
-    - [Command Line Tools](#retro-snes-command-line-tools)
-    - [Devkits](#retro-snes-devkit)
-    - [IDEs](#retro-snes-ide)
-  - [Hardware](#retro-snes-hardware)
-  - [GUI Tools](#retro-snes-gui-tools)
-  - [Emulators](#retro-snes-emulators)
-  - [Reverse Engineering](#retro-snes-reverse-engineering)
-  - [Source Codes](#retro-snes-source-codes)
-    - [Demo Source Codes](#retro-snes-demo-source-codes)
+  - [Source Code](#retro-snes-source-codes)
+    - [Demo Source Code](#retro-snes-demo-source-codes)
 
 ---
 
@@ -60,6 +51,11 @@
 *Tools to program assembler on the Commodore Amiga*
 
 - [VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - A cross assembler to produce m68k code
+
+### <a name="retro-amiga-linkers"></a>Linkers
+
+*Linkers for the Commodore Amiga*
+
 - [VLINK](http://sun.hasenbraten.de/vlink/index.php?view=main) - A portable linker to produce Amiga code
 
 ---
@@ -71,12 +67,6 @@
 *Tools to program assembler on the Sega Genesis*
 
 - [VASM](http://sun.hasenbraten.de/vasm/index.php?view=main) - A cross assembler to produce m68k code
-
-### <a name="retro-sega-genesis-compilers"></a>Compilers
-
-*Compilers for the m68k platform*
-
-<!-- Content can be added here in the future -->
 
 ### <a name="retro-sega-genesis-development-tools"></a>Development Tools
 
@@ -113,12 +103,6 @@
 - [Mega Happy Sprite](https://github.com/sigflup/Mega-Happy-Sprite) - Sprite/Scrollpane editor for the Sega Genesis
 - [ZorroTracker](https://github.com/ZorroTrackerDev/ZorroTracker) - Music Tracker created in Electron
 
-### <a name="retro-sega-genesis-emulators"></a>Emulators
-
-*Emulators with development/debugging capabilities*
-
-<!-- Content can be added here in the future -->
-
 ### <a name="retro-sega-genesis-reverse-engineering"></a>Reverse Engineering
 
 *Tools to reverse engineer the Sega Genesis platform*
@@ -128,90 +112,37 @@
 - [SMD IDA Tools](https://github.com/lab313ru/smd_ida_tools) - IDA plugin for SMD files
 - [Scripts for IDA](https://github.com/zznop/ida-genesis) - Scripts to support Sega Genesis reverse engineering
 
-### <a name="retro-sega-genesis-source-codes"></a>Source Codes
+### <a name="retro-sega-genesis-source-codes"></a>Source Code
 
-*Source codes for the Sega Genesis platform*
+*Source code for the Sega Genesis platform*
 
-#### <a name="retro-sega-genesis-demo-source-codes"></a>Demo Source Codes
+#### <a name="retro-sega-genesis-demo-source-codes"></a>Demo Source Code
 
 - [Demo Malabars-Bumper](https://github.com/ResistanceVault/demo-Malabars-Bumper) - Source code for a Sega Genesis demo
 - [Demo Masiaka](https://github.com/ResistanceVault/demo-Masiaka) - Source code for a Sega Genesis demo
 - [Demo Zsenilla](https://github.com/ResistanceVault/demo-Zsenilia) - Source code for a Sega Genesis demo
-- [Genesis Debugger](https://github.com/flamewing/genesis-debugger) - Source code for a debugger on Sega Genesis
-- [GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
+
+#### <a name="retro-sega-genesis-game-source-codes"></a>Game Source Code
+
+*Source code for games on the Sega Genesis platform*
+
 - [L'Abbaye des Morts](https://github.com/moon-watcher/AbbayeMD) - Source code for a Sega Genesis game
-- [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker
-
-#### <a name="retro-sega-genesis-game-source-codes"></a>Game Source Codes
-
-*Source codes for games on the Sega Genesis platform*
-
 - [Sonic the Hedgehog 1 - C port](https://github.com/cuckydev/SoniCPort) - Source code for a C port of Sonic the Hedgehog 1
+
+#### <a name="retro-sega-genesis-tools-and-sound-drivers"></a>Tools and Sound Drivers
+
+- [GEMS](https://github.com/realmonster/GEMS) - Sega Genesis GEMS Sound Driver
+- [Genesis Debugger](https://github.com/flamewing/genesis-debugger) - Source code for a debugger on Sega Genesis
+- [mdtracker](https://github.com/corthax/mdtracker) - Source code for a native Sega Genesis music tracker
 
 ---
 
 ## Super Nintendo (SNES)
 
-### <a name="retro-snes-assemblers"></a>Assemblers
+### <a name="retro-snes-source-codes"></a>Source Code
 
-*Tools to program assembler on the SNES*
+*Source code for the SNES platform*
 
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-compilers"></a>Compilers
-
-*Compilers for the SNES platform*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-development-tools"></a>Development Tools
-
-#### <a name="retro-snes-command-line-tools"></a>Command Line Tools
-
-*Command line tools for SNES development*
-
-<!-- Content can be added here in the future -->
-
-#### <a name="retro-snes-devkit"></a>Devkits
-
-*Complete toolchains to develop SNES programs*
-
-<!-- Content can be added here in the future -->
-
-#### <a name="retro-snes-ide"></a>IDEs
-
-*Integrated Development Environments for SNES development*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-hardware"></a>Hardware
-
-*Hardware and firmware for the SNES*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-gui-tools"></a>GUI Tools
-
-*GUI tools for the SNES*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-emulators"></a>Emulators
-
-*Emulators with development/debugging capabilities*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-reverse-engineering"></a>Reverse Engineering
-
-*Tools to reverse engineer the SNES platform*
-
-<!-- Content can be added here in the future -->
-
-### <a name="retro-snes-source-codes"></a>Source Codes
-
-*Source codes for the SNES platform*
-
-#### <a name="retro-snes-demo-source-codes"></a>Demo Source Codes
+#### <a name="retro-snes-demo-source-codes"></a>Demo Source Code
 
 - [Demo-Twistit](https://github.com/ResistanceVault/demo-twistit) - Source code for a SNES demo
